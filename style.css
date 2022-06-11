@@ -31,11 +31,11 @@ ul {
 	margin: 0;
 	padding: 0;
 	display: flex;
-	margin-right: 100px;
+	gap: 100%;
+	margin-right: 20%;
 }
 
 a {
-	margin: 0px 50px;
 	text-decoration: none;
 	color: #e2b360;
 	font-weight: 600;
