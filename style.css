@@ -3,6 +3,7 @@ body {
 	flex-direction: column;
 	margin: 0px;
 	color: #e2b360;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .header {
@@ -32,6 +33,7 @@ body {
 	object-fit: cover;
 	object-position: 0 65%;
 	border-radius: 5px;
+	border: 5px solid #e2b360;
 }
 
 ul {
@@ -56,16 +58,22 @@ a {
 .container-1 {
 	background-color: #f7f7f7;
 	display: flex;
-	padding: 40px;
+	padding: 80px;
 	justify-content: center;
-	gap: 50px;
+	gap: 10%;
 }
 
 .left-1 {
 	display: flex;
 	flex-direction: column;
+	flex: 1 1 auto;
+	max-width: 400px;
 }
 
+.right-1 {
+	flex: 1 1 auto;
+	max-width: 400px;
+}
 button {
 	background-image: linear-gradient(
 		to right,
@@ -86,4 +94,42 @@ button {
 button:hover {
 	background-position: right center;
 	text-decoration: none;
+}
+
+.container-2 {
+	display: flex;
+	background-color: #e2b360;
+	flex-direction: column;
+	color: #f7f7f7;
+	align-items: center;
+	gap: 16px;
+}
+
+.info-container {
+	display: flex;
+	gap: 100px;
+	flex-wrap: wrap;
+	justify-content: center;
+	text-align: center;
+}
+
+.card {
+	justify-content: center;
+	width: 130px;
+}
+
+.img-info {
+	width: 130px;
+	height: 195px;
+	border-radius: 5px;
+	border: 5px solid #f7f7f7;
+}
+
+.info-container {
+	background-color: #e2b360;
+}
+
+.info {
+	display: flex;
+	flex-direction: column;
 }
