@@ -12,6 +12,7 @@ body {
 	background-color: #f7f7f7;
 	padding: 1px;
 	align-items: center;
+	border-bottom: 2px solid #e2b360;
 }
 
 .header-left {
@@ -60,7 +61,8 @@ a {
 	display: flex;
 	padding: 80px;
 	justify-content: center;
-	gap: 10%;
+	gap: 36px;
+	flex-wrap: wrap;
 }
 
 .left-1 {
@@ -103,6 +105,7 @@ button:hover {
 	color: #f7f7f7;
 	align-items: center;
 	gap: 16px;
+	padding: 24px;
 }
 
 .info-container {
@@ -132,4 +135,61 @@ button:hover {
 .info {
 	display: flex;
 	flex-direction: column;
+}
+
+.quote-container {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 64px 150px;
+	background-color: #e5e7eb;
+	font-size: 28px;
+	font-style: italic;
+	font-weight: lighter;
+	color: #1f2937;
+}
+
+.quote {
+	font-size: 16px;
+	color: black;
+	font-style: normal;
+	font-weight: bold;
+	margin-left: auto;
+}
+
+.contact-container {
+	background-color: #e2b360;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 40px;
+}
+
+.contact-flex {
+	display: flex;
+	align-items: center;
+	background-color: #f7f7f7;
+	padding: 32px 100px;
+	gap: 24px;
+	border-radius: 5px;
+}
+.text-flex {
+	display: flex;
+	flex-direction: column;
+	color: #e2b360;
+	display: flex;
+}
+
+h2 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	padding: 24px;
 }
